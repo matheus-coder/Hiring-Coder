@@ -1,0 +1,19 @@
+// Creating constructor
+
+function Celphone(nome, preco, fabricante) {
+  this.nome = nome;
+  this.preco = preco;
+  this.fabricante = fabricante;
+
+  //Declaring a method
+  this.getData = function () {
+    return this.nome
+      + 'tem preço de: '
+      + this.preco
+      + ' e o fabricante é: '
+      + this.fabricante;
+  };
+}
+// Creating new instance
+const Smartphone = new Celphone('Poco M3 Pro ', ' R$1.300,00', 'Xiaomi');
+console.log(Smartphone.getData());

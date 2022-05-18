@@ -1,0 +1,12 @@
+/* tags*/
+h1{
+    text-align: center;
+}
+
+/* ID's*/
+#login{}
+
+/* classes*/
+.copy{} 
+
+li*3 + tab
