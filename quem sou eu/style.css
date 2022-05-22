@@ -2,8 +2,8 @@
 padding: 0;
 margin: 0;
 box-sizing: border-box;
-color: rgb(68, 163, 39);
-font-family: 'montserrat', sans-seri f;
+color: rgb(25, 255, 148);
+font-family: 'montserrat', sans-serif;
 
 }
 
@@ -12,46 +12,116 @@ header {
     justify-content: space-around;
     align-items: center;
     padding: 10px;
+    border-bottom: 1px solid cornsilk;
+    
 }
 
 header ul li {
-    padding: 10px;
+    padding: 3px;
+    border-radius: 10px;
+    /*border-bottom: 1px solid cornsilk;*/    /*ox-shadow: inset 0 -1px rgb(53, 176, 192);*/
+    margin: 10px;
+    
 }
+
+header ul li:hover{
+    background-color: rgba(92, 85, 85, 0.4);
+}
+
+
 header ul {
 display: flex;
 
 }
 
+
+
+
 ul {
     list-style: none;
     text-decoration: none;
-    font-style: italic;
+    font-style: italic; 
+    
     
 }
+
 a {
      
     text-decoration: none;
 }
 
 
+header li a:hover{
+    transition: 500ms;
+    transition-delay: 60ms;
+}
+header li a:hover{
+    color: rgb(23, 255, 178);
+    text-decoration: underline rgb(56, 50, 50);
+}
+
+.rotate{
+transform: rotate(180deg);
+transition: 300ms;
+}
+
+
+#arrow {
+    font-size: 30px;
+    cursor: pointer;
+    animation: blink 1s steps(5, start) infinite;
+}
+@keyframes blink {
+    to{
+        visibility: hidden;
+    }
+    
+}
+
 .container {
     text-align: center;
+    
 
 }
-.container .name h1{
-    font-size: 100px;
+.container .name h1 {
+    font-size:45px;
+   
 }
 
-.container .name h5{
+.container .name h5 { 
     font-size: 25px;
+    text-decoration: solid ;
 }
+
 body {
     background: url(./fundo.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
 #about p{
-    max-width: 700px;
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+
+.form {
+    width: 40%;
+    margin: 0 auto;
+    padding: 200px ;
+}
+
+.form input{
+    width: 50%;
+    margin: 0 auto;
+}
 
 
+
+.form btton:hover {
+    width: 15%;
+    margin: 0 auto;
+    background-color: rgb(0, 235, 156);
+    border: none;
+    cursor: pointer;
+    
 }
