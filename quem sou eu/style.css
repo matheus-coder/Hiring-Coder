@@ -77,6 +77,8 @@ transition: 300ms;
     cursor: pointer;
     animation: blink 1s steps(5, start) infinite;
 }
+
+
 @keyframes blink {
     to{
         visibility: hidden;
