@@ -66,3 +66,38 @@ while (achou){
 }
 
 
+
+
+
+function soma(operadorA, operadorB) {
+    var resultadoC = operadorA + operadorB;
+    return resultadoC;
+}
+
+function olaGama(nome) {
+    console.log('Ola estudante ' + nome );
+}
+
+var resultadoDaSoma = soma(1, 2);
+var resultadoNovoDaSoma = soma(344, 90);
+console.log(resultadoDaSoma);
+console.log(resultadoNovoDaSoma);
+
+
+olaGama('Matheus');
+
+
+class matematica{
+    soma(valorA, valorB){
+        return valorA + valorB;
+    subtracao(valorA, valorB){
+        return valorA - valorA;
+        
+    }
+
+    }
+}
+
+var instanciaMatematica = new matematica();
+var resultado = instanciaMatematica.soma(4,7);
+console.log(resultado);
