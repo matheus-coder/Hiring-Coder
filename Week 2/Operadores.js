@@ -1,3 +1,4 @@
+//calculos matematicos
 var operador1 = 10;
 var operador2 = 20;
 
@@ -5,6 +6,8 @@ var resultado = operador1 * operador2;
 
 console.log(resultado);
 
+
+//if / else
 var nome = "Math";
 
 if (nome === "Matheus"){
@@ -16,6 +19,8 @@ if (nome === "Matheus"){
            console.log("esse nome não esta autorizado a utilizar o sistema!!!");
 }
 
+
+// Valiação de 
 var objeto = ('roupa');
 
 switch (objeto){
@@ -30,6 +35,8 @@ switch (objeto){
         break;
 
 }
+
+
 
 
 var numeroSorteado = 10;
@@ -49,6 +56,8 @@ for(var i = 1; i < 13; i ++ ){
     console.log(i + " x" + " 7" + " =" + conta);
 }
 
+
+//Sorteando numeos
 var numeroSorteado = 10;
 
 for( var i = 0; i <= 100; i++) {
@@ -68,16 +77,20 @@ while (achou){
 
 
 
-
+//Return
 function soma(operadorA, operadorB) {
     var resultadoC = operadorA + operadorB;
     return resultadoC;
 }
 
+
+//concatenação de stinrg
 function olaGama(nome) {
     console.log('Ola estudante ' + nome );
 }
 
+
+//Uando var
 var resultadoDaSoma = soma(1, 2);
 var resultadoNovoDaSoma = soma(344, 90);
 console.log(resultadoDaSoma);
@@ -90,10 +103,10 @@ olaGama('Matheus');
 class matematica{
     soma(valorA, valorB){
         return valorA + valorB;
-    subtracao(valorA, valorB){
+    subtracao(valorA, valorB);
         return valorA - valorA;
         
-    }
+    
 
     }
 }
@@ -101,3 +114,9 @@ class matematica{
 var instanciaMatematica = new matematica();
 var resultado = instanciaMatematica.soma(4,7);
 console.log(resultado);
+
+
+
+
+
+
