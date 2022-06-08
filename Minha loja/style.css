@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     color: rgb(4, 27, 16);
+    font-family: 'montserrat', sans-serif;
     
 }
 
@@ -23,11 +24,6 @@ header ul li {
 }
 
 
-header ul {
-    display: flex;
-    
-}
-
 header ul li:hover{
     background-color: rgba(92, 85, 85, 0.4);
 }
@@ -36,26 +32,26 @@ header ul li:hover{
 header ul {
     display: flex;
     
-    }
+}
 
 
-    ul {
-        list-style: none;
-        text-decoration: none;
-        font-style: italic; 
-             
-    }
+ul {
+    list-style: none;
+    text-decoration: none;
+    font-style: italic;              
+}
 
 
-    a {
+a {
      
-        text-decoration: none;
-    }
+     text-decoration: none;
+}
 
 
-#logomarca img{
-    max-width:60px;
-    max-height:60px    
+#LogoCadastro img{
+    max-width:40px;
+    max-height:40px;
+      
     
 }
 
