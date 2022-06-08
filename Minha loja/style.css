@@ -2,20 +2,71 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: rgb(25, 255, 148);
-    font-family: 'montserrat', sans-serif;
+    color: rgb(4, 27, 16);
+    
 }
 
 header  {
     display: flex;
     justify-content: space-around;
-    align-items: center;
     padding: 10px;
+    align-items: left;
     border-bottom: 1px solid darkgray;
+    background-color: gold;
 }
 
+header ul li {
+    padding: 3px;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+
+
+header ul {
+    display: flex;
+    
+}
+
+header ul li:hover{
+    background-color: rgba(92, 85, 85, 0.4);
+}
+
+
+header ul {
+    display: flex;
+    
+    }
+
+
+    ul {
+        list-style: none;
+        text-decoration: none;
+        font-style: italic; 
+             
+    }
+
+
+    a {
+     
+        text-decoration: none;
+    }
+
+
 #logomarca img{
-    max-width:80px;
-    max-height:80px;
+    max-width:60px;
+    max-height:60px    
+    
+}
+
+header li a:hover{
+    transition: 500ms;
+    transition-delay: 60ms;
+}
+
+
+header li a:hover{
+    color: rgb(23, 255, 178);
+    text-decoration: underline rgb(56, 50, 50);
     
 }
