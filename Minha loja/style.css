@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: rgb(4, 27, 16);
+    color: rgb(1, 17, 9);
     font-family: 'montserrat', sans-serif;
     
 }
@@ -10,37 +10,24 @@
 header  {
     display: flex;
     justify-content: space-around;
-    padding: none;
+    padding: 10px;    
     align-items: center;
     background-color: gold;
 }
 
 header ul li {
-    padding: 2px;
-    border-radius: 10px;
-    margin: 1px;
     
-}
-
-
-
-
-header ul {
-    display: flex;
-    
-}
-
-
-ul {
+    padding: 3px;
+    border-radius: 3px;
+    margin: 3px;
     list-style: none;
     text-decoration: none;
-    font-style: italic;              
+    font-style: italic; 
+    
 }
 
-
-a {
-     
-     text-decoration: none;
+header ul{
+    display: flex;
 }
 
 
@@ -68,7 +55,7 @@ header li a:hover{
 
 
 header li a:hover{
-    color: rgb(23, 255, 178);
-    text-decoration: underline rgb(56, 50, 50);
+    color: rgb(221, 21, 171);
+    text-decoration: underline rgb(7, 7, 7);
     
 }
