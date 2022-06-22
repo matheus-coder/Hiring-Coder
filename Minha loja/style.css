@@ -7,7 +7,7 @@
     
 }
 
-header  {
+header {
     display: flex;
     justify-content: space-around;
     padding: 10px;    
@@ -58,4 +58,18 @@ header li a:hover{
     color: rgb(221, 21, 171);
     text-decoration: underline rgb(7, 7, 7);
     
+    
+}
+
+.produtos{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    
+
+}
+.produto{
+    text-align:center;
+    text-decoration: s;
 }
