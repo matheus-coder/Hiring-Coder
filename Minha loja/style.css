@@ -68,6 +68,11 @@ header li a:hover{
 }
 .produto{
     text-align:center;
+<<<<<<< HEAD
     text-decoration: s;
 }
 
+=======
+    text-decoration: none;
+}
+>>>>>>> e0a3e8c16f08b71d959c8815dd0454cd4f9e12e2
